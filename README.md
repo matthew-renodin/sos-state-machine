@@ -25,7 +25,7 @@ int main(void) {
   int state = STATE_INIT;
 
   while (1) {
-    char ch = getchar();
+    char ch = std::getchar();
     switch (state) {
       case STATE_INIT:
         if (ch == 'S') {
