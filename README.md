@@ -2,6 +2,14 @@
 
 This is a simple example of a state machine. It processes characters and outputs SOS Found if it finds it in the characters it is given.
 
+## build
+gcc -o ssm sos-state-machine.cpp
+
+# run
+
+./ssm
+
+## code
 ```c++
 #include <cstdio>
 #include <iostream>
